@@ -193,6 +193,7 @@ ul {
 @media (max-width: 768px) {
   .block1 {
     padding-top: 120px;
+    padding-bottom: 80px;
   }
 
   .block1__card:not(:first-child) {
@@ -217,9 +218,11 @@ ul {
 @media (max-width: 550px) {
   .block1__title {
     font-size: 48px;
+    line-height: 1.2;
   }
   .block1__card {
     flex-basis: 100%;
+    margin-top: 80px;
   }
   .block1__card:not(:first-child) {
     margin-top: 10px;
@@ -241,7 +244,7 @@ ul {
 
   .section-block1 {
       background-repeat: no-repeat;
-      background-position: -180px center;
+      background-position: -240px top;
   }
 }
 
